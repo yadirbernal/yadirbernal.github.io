@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 204, 235);
+
+}
+
+body {
+    background-color: rgb(238, 208, 227);
+}
+
+.logotipo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+}
+
+.logotipo img {
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header ul li {
+    margin: 40px;
+}
+
+
+h1 {
+    font-size: 40px;
+    color: rgb(2, 1, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 50px;
+    margin: 30px;
+
+}
+
+.caja p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    border: 2px;
+}
+
+.presentacion h2 {
+    font-family: "Lobster Two", sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.eslogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.eslogan p {
+    width: 75%;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    align-items: center;
+    font-size: 45px;
+    padding: 30px;
+    margin: 50px;
+
+}
+
+#ubicacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ubicacion iframe {
+    padding: 10px;
+    margin: 50px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    align-items: center;
+}
+
+.caja {
+
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 20%;
+    margin: 30px;
+    width: 35%;
+    align-items: center;
+}
+
+.caja2 {
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4%;
+    
+
+
+}
+
+.caja2 h1 {
+
+    font-size: 40px;
+    color: rgb(2, 1, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 50px;
+    margin: 30px;
+
+}
+
+.caja2 img {
+    border-radius: 20%;
+    margin: 30px;
+    width: 35%;
+    height: 35%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+button {
+    background-color: rgb(165, 4, 4);
+    color: white;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    border: solid 2px white;
+    background-color: rgb(165, 4, 4);
+
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    box-shadow: none;
+    border: solid 2px white;
+    background-color: rgb(165, 4, 4);
+    ;
+
+}
+
+
+.prueba {
+
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prueba img {
+    border-radius: 15%;
+    margin: 40px;
+    width: 70%;
+    justify-content: center;
+}
+
+.caja h3 {
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+
+}
+
+.pie {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie h4 {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+}
+
+
+@media (max-width: 767px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logotipo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    }
+    
+    
+    .logotipo img {
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion h2 {
+        font-family: "Lobster Two", sans-serif;
+        font-size: 15px;
+        color: black;
+        padding: 10px;
+        margin: 10px;
+        width: 100px; ;
+        flex-direction: center;
+    }
+    nav{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: center;
+        list-style: none;
+    }
+    
+    header ul li{
+        list-style: none;
+        margin: 20px;
+    
+    }
+    .caja2{
+       
+        width: 100%;
+        height: 30%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+
+    }
+    .caja2 img {
+        border-radius: 20%;
+        margin: 30px;
+        width: 50%;
+        height: 50%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
